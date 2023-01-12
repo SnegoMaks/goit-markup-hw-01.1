@@ -27,14 +27,14 @@ li {
   font-family: "Raleway";
   color: #2e2f42;
 }
-.navi-first {
+.navi-first > .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.navi-second {
+.navi-second > .link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -62,14 +62,14 @@ h1 {
   background-color: #4d5ae5;
 }
 /*section-about-co*/
-h3 {
+.about-work {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-p {
+.about-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -77,7 +77,7 @@ p {
   color: #434455;
 }
 /*section-What Are We Doing*/
-h2 {
+.wawd {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -86,7 +86,28 @@ h2 {
   color: #2e2f42;
 }
 /*section-Our Team*/
-
+.people {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.people-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.people-work {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 /*section-footer*/
 .footer-navi {
   background-color: #2e2f42;
@@ -102,5 +123,49 @@ h2 {
   color: #f4f4fd;
 }
 .footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
+/*portfolio*/
+/*main*/
+/*section-btn*/
+.not-vision {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.sec-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+}
+/*portfolio*/
+/*section-li-a*/
+.sec-li-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.sec-li-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*portfolio*/
+/*footer*/
