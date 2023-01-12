@@ -1,4 +1,66 @@
-body{
-    background-color: white;
+body {
+  font-family: Roboto, sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  font-style: Regular;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
 }
 /*header*/
+/*logo*/
+.logo {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  /*iris*/
+  color: #4d5ae5;
+}
+.logo-black {
+  color: #2e2f42;
+}
+.navi-first {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.navi-second {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*main*/
+/*section-hero*/
+.section-hero {
+  background-color: #2e2f42;
+}
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
