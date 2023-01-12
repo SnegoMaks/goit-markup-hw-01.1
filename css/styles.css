@@ -2,7 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400px;
   font-size: 16px;
-  font-style: Regular;
+  font-style: normal;
 }
 a {
   text-decoration: none;
@@ -13,7 +13,7 @@ li {
 /*header*/
 /*logo*/
 .logo {
-  font-style: normal;
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -24,10 +24,10 @@ li {
   color: #4d5ae5;
 }
 .logo-black {
+  font-family: "Raleway";
   color: #2e2f42;
 }
 .navi-first {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -35,7 +35,6 @@ li {
   color: #2e2f42;
 }
 .navi-second {
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -48,7 +47,6 @@ li {
   background-color: #2e2f42;
 }
 h1 {
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -56,11 +54,53 @@ h1 {
   color: #ffffff;
 }
 .hero-btn {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+}
+/*section-about-co*/
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/*section-What Are We Doing*/
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+/*section-Our Team*/
+
+/*section-footer*/
+.footer-navi {
+  background-color: #2e2f42;
+}
+.logo-white {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text {
+  color: #e7e9fc;
 }
