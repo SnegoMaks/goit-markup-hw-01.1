@@ -27,6 +27,7 @@ body {
 }
 .menu {
   display: flex;
+  justify-content: space-between;
 }
 .menu-end {
   justify-content: flex-end;
@@ -89,6 +90,11 @@ h1 {
   letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
 }
 /*section-about-co*/
 .about-work {
