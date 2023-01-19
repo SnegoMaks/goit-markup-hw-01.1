@@ -1,6 +1,7 @@
 :root {
   /*font*/
-
+  /*head*/
+  --logo-first: #4d5ae5;
   /*text colors*/
 
   /*background colors*/
@@ -22,7 +23,7 @@ body {
   background-color: #404bbf;
 }
 
-li {
+.li {
   list-style: none;
 }
 .menu {
