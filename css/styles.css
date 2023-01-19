@@ -25,6 +25,20 @@ body {
 li {
   list-style: none;
 }
+.menu {
+  display: flex;
+}
+.menu-end {
+  justify-content: flex-end;
+}
+.menu-centre {
+  justify-content: center;
+}
+.card-set {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 /*header*/
 /*logo*/
 .logo {
@@ -159,6 +173,7 @@ h1 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .btn {
   font-weight: 500;
   font-size: 16px;
